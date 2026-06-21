@@ -17,7 +17,8 @@ from datetime import date, datetime, timedelta
 
 import tushare as ts
 
-TS_TOKEN = "f799de4003e7bee1c425795940df6d0d59e9c41265e430106a66f271"
+from tushare_config import get_tushare_token
+
 CSV_DIR = os.path.expanduser("~/.qlib/csv_data/cn")
 QLIB_DIR = os.path.expanduser("~/.qlib/qlib_data/cn_data_tushare")
 STOCK_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "main_board_stocks.txt")
@@ -28,7 +29,7 @@ PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
 
 def get_latest_trading_day() -> str:
     """获取最近一个交易日（tushare 日历）"""
-    pro = ts.pro_api(TS_TOKEN)
+    pro = ts.pro_api(get_tushare_token())
     today = date.today()
     # 查最近 10 天，取最后一个交易日
     df = pro.trade_cal(

@@ -7,8 +7,9 @@
 import sys, os, json, time
 import tushare as ts
 
-TUSHARE_TOKEN = "f799de4003e7bee1c425795940df6d0d59e9c41265e430106a66f271"
-pro = ts.pro_api(TUSHARE_TOKEN)
+from tushare_config import get_tushare_token
+
+pro = ts.pro_api(get_tushare_token())
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPT_DIR)

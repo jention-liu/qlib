@@ -19,6 +19,8 @@ import pandas as pd
 import tushare as ts
 from loguru import logger
 
+from tushare_config import get_tushare_token
+
 # qlib 工具：code_to_fname("sh600000") → "sh600000", fname_to_code("sh600000") → "SH600000"
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 try:
@@ -28,7 +30,6 @@ except ImportError:
         return code.lower()
 
 
-TUSHARE_TOKEN = "f799de4003e7bee1c425795940df6d0d59e9c41265e430106a66f271"
 STOCK_TIMEOUT = 30  # 单只股票 API 超时（秒）
 MAX_RETRIES = 3  # 失败重试次数
 
@@ -59,7 +60,7 @@ class TushareCollector:
     def __init__(self, save_dir: str = "~/.qlib/csv_data/cn", token: str = None):
         self.save_dir = Path(save_dir).expanduser()
         self.save_dir.mkdir(parents=True, exist_ok=True)
-        self.token = token or TUSHARE_TOKEN
+        self.token = token or get_tushare_token()
         self.pro = None
         self._setup_logging()
 

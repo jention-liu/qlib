@@ -17,8 +17,9 @@ from datetime import datetime, date, timedelta
 import pandas as pd
 import numpy as np
 
+from tushare_config import get_tushare_token
+
 # ---- 配置 ----
-TUSHARE_TOKEN = "f799de4003e7bee1c425795940df6d0d59e9c41265e430106a66f271"
 
 # 规则参数
 MIN_AVG_AMOUNT = 50_000      # 近 20 日平均成交额 >= 5000 万（单位：千元，tushare amount 字段）
@@ -49,7 +50,7 @@ def run_screening(output_csv: str = None):
     import qlib
     from qlib.data import D
 
-    pro = ts.pro_api(TUSHARE_TOKEN)
+    pro = ts.pro_api(get_tushare_token())
     latest_date_str = get_latest_trade_date()
 
     if output_csv is None:
@@ -448,7 +449,7 @@ def _layer1_filter(df: pd.DataFrame) -> pd.DataFrame:
     白名单 pass / 灰名单降权 / 黑名单排除。
     """
     import tushare as ts
-    pro = ts.pro_api(TUSHARE_TOKEN)
+    pro = ts.pro_api(get_tushare_token())
 
     # 获取所有主板股票的行业（复用已有的 ts_code）
     codes = df["ts_code"].tolist()
@@ -496,7 +497,7 @@ def _layer1_filter_v2(df: pd.DataFrame) -> pd.DataFrame:
     无标签的股票回退到申万行业映射。
     """
     import tushare as ts
-    pro = ts.pro_api(TUSHARE_TOKEN)
+    pro = ts.pro_api(get_tushare_token())
     tags_data, concept_map = _load_concept_data()
     
     # 先获取申万行业（用于回退 + 展示）
@@ -746,7 +747,7 @@ def _layer2_filter_v2(df: pd.DataFrame) -> pd.DataFrame:
     - 其余 → 通过
     """
     import tushare as ts
-    pro = ts.pro_api(TUSHARE_TOKEN)
+    pro = ts.pro_api(get_tushare_token())
 
     codes = df["ts_code"].tolist()
     n = len(codes)

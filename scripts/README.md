@@ -8,6 +8,20 @@
   - [US data](#US-data)
   - [CN data](#CN-data)
 
+## Tushare configuration
+
+The custom A-share data and screening scripts read the Tushare token from the
+`TUSHARE_TOKEN` environment variable:
+
+```bash
+export TUSHARE_TOKEN="your-token"
+python scripts/run_screening.py
+```
+
+Alternatively, put `TUSHARE_TOKEN=your-token` in the project-root `.env` file.
+Environment variables take precedence over `.env`. Do not commit the token;
+`.env` is ignored by Git.
+
 
 ## Download Qlib Data
 

@@ -1,7 +1,9 @@
 """获取沪深主板股票列表"""
 import tushare as ts
 
-pro = ts.pro_api('f799de4003e7bee1c425795940df6d0d59e9c41265e430106a66f271')
+from tushare_config import get_tushare_token
+
+pro = ts.pro_api(get_tushare_token())
 
 # 获取所有上市A股
 df = pro.stock_basic(exchange='', list_status='L',
