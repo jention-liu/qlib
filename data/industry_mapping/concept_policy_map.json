@@ -1,0 +1,467 @@
+{
+  "concepts": {
+    "5G": {
+      "direction": "AI算力产业链",
+      "score": 85
+    },
+    "6G概念": {
+      "direction": "AI算力产业链",
+      "score": 85
+    },
+    "AI PC": {
+      "direction": "AI算力产业链",
+      "score": 80
+    },
+    "AIGC概念": {
+      "direction": "AI算力产业链",
+      "score": 90
+    },
+    "AI应用": {
+      "direction": "AI算力产业链",
+      "score": 88
+    },
+    "AI手机": {
+      "direction": "AI算力产业链",
+      "score": 80
+    },
+    "AI智能体": {
+      "direction": "AI算力产业链",
+      "score": 90
+    },
+    "AI眼镜": {
+      "direction": "AI算力产业链",
+      "score": 80
+    },
+    "AI语料": {
+      "direction": "AI算力产业链",
+      "score": 85
+    },
+    "F5G概念": {
+      "direction": "AI算力产业链",
+      "score": 85
+    },
+    "MCU芯片": {
+      "direction": "AI算力产业链",
+      "score": 85
+    },
+    "东数西算(算力)": {
+      "direction": "AI算力产业链",
+      "score": 95
+    },
+    "中国AI 50": {
+      "direction": "AI算力产业链",
+      "score": 85
+    },
+    "云计算": {
+      "direction": "数字中国/信创",
+      "score": 88
+    },
+    "人工智能": {
+      "direction": "AI算力产业链",
+      "score": 95
+    },
+    "人形机器人": {
+      "direction": "高端装备/工业母机",
+      "score": 95
+    },
+    "低空经济": {
+      "direction": "低空经济/航空航天",
+      "score": 95
+    },
+    "信创": {
+      "direction": "数字中国/信创",
+      "score": 95
+    },
+    "储能": {
+      "direction": "新能源升级方向",
+      "score": 95
+    },
+    "充电桩": {
+      "direction": "新能源升级方向",
+      "score": 88
+    },
+    "先进封装": {
+      "direction": "半导体国产替代",
+      "score": 88
+    },
+    "光伏加工设备": {
+      "direction": "新能源升级方向",
+      "score": 85
+    },
+    "光伏建筑一体化": {
+      "direction": "新能源升级方向",
+      "score": 80
+    },
+    "光伏概念": {
+      "direction": "新能源升级方向",
+      "score": 90
+    },
+    "光伏电池组件": {
+      "direction": "新能源升级方向",
+      "score": 90
+    },
+    "光伏设备": {
+      "direction": "新能源升级方向",
+      "score": 90
+    },
+    "光伏辅材": {
+      "direction": "新能源升级方向",
+      "score": 85
+    },
+    "光刻机": {
+      "direction": "半导体国产替代",
+      "score": 95
+    },
+    "光刻胶": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "其他小金属": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 80
+    },
+    "其他金属新材料": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 75
+    },
+    "创新药": {
+      "direction": "创新药",
+      "score": 95
+    },
+    "区块链": {
+      "direction": "数字中国/信创",
+      "score": 80
+    },
+    "医疗器械": {
+      "direction": "高端医疗器械",
+      "score": 90
+    },
+    "医疗器械概念": {
+      "direction": "高端医疗器械",
+      "score": 88
+    },
+    "医疗设备": {
+      "direction": "高端医疗器械",
+      "score": 90
+    },
+    "半导体": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "半导体产品": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "半导体产品(A股)": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "半导体产品与设备": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "半导体产品与设备Ⅱ": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "半导体产品与设备Ⅱ(A股)": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "半导体产品与设备Ⅲ": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "半导体产品与设备Ⅲ(A股)": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "半导体材料": {
+      "direction": "半导体国产替代",
+      "score": 88
+    },
+    "半导体材料与设备": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "半导体材料与设备(A股)": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "半导体设备": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "卫星及无线通讯": {
+      "direction": "低空经济/航空航天",
+      "score": 85
+    },
+    "卫星导航": {
+      "direction": "低空经济/航空航天",
+      "score": 85
+    },
+    "固态电池": {
+      "direction": "新能源升级方向",
+      "score": 90
+    },
+    "基因测序": {
+      "direction": "创新药",
+      "score": 85
+    },
+    "多模态AI": {
+      "direction": "AI算力产业链",
+      "score": 90
+    },
+    "存储芯片": {
+      "direction": "AI算力产业链",
+      "score": 88
+    },
+    "小金属": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 90
+    },
+    "小金属概念": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 85
+    },
+    "工业母机": {
+      "direction": "高端装备/工业母机",
+      "score": 95
+    },
+    "数字芯片设计": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "数据中心": {
+      "direction": "AI算力产业链",
+      "score": 88
+    },
+    "数据中心REIT": {
+      "direction": "AI算力产业链",
+      "score": 75
+    },
+    "数据处理和外包服务": {
+      "direction": "数字中国/信创",
+      "score": 80
+    },
+    "数据处理和外包服务(A股)": {
+      "direction": "数字中国/信创",
+      "score": 80
+    },
+    "数据安全": {
+      "direction": "数字中国/信创",
+      "score": 90
+    },
+    "数据确权": {
+      "direction": "数字中国/信创",
+      "score": 88
+    },
+    "数据要素": {
+      "direction": "数字中国/信创",
+      "score": 90
+    },
+    "新能源发电": {
+      "direction": "新能源升级方向",
+      "score": 85
+    },
+    "新能源发电业者": {
+      "direction": "新能源升级方向",
+      "score": 80
+    },
+    "新能源发电业者(A股)": {
+      "direction": "新能源升级方向",
+      "score": 80
+    },
+    "新能源汽车": {
+      "direction": "新能源升级方向",
+      "score": 85
+    },
+    "新能源物料": {
+      "direction": "新能源升级方向",
+      "score": 80
+    },
+    "无人机": {
+      "direction": "低空经济/航空航天",
+      "score": 90
+    },
+    "时空大数据": {
+      "direction": "数字中国/信创",
+      "score": 85
+    },
+    "智谱AI": {
+      "direction": "AI算力产业链",
+      "score": 88
+    },
+    "有线和卫星电视": {
+      "direction": "低空经济/航空航天",
+      "score": 70
+    },
+    "有线和卫星电视(A股)": {
+      "direction": "低空经济/航空航天",
+      "score": 70
+    },
+    "机器人": {
+      "direction": "高端装备/工业母机",
+      "score": 95
+    },
+    "机器人概念": {
+      "direction": "高端装备/工业母机",
+      "score": 90
+    },
+    "模拟芯片设计": {
+      "direction": "半导体国产替代",
+      "score": 88
+    },
+    "氢能源": {
+      "direction": "新能源升级方向",
+      "score": 85
+    },
+    "汽车芯片": {
+      "direction": "AI算力产业链",
+      "score": 80
+    },
+    "液冷服务器": {
+      "direction": "AI算力产业链",
+      "score": 88
+    },
+    "特高压": {
+      "direction": "新能源升级方向",
+      "score": 90
+    },
+    "盐湖提锂": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 85
+    },
+    "石墨烯": {
+      "direction": "新材料",
+      "score": 85
+    },
+    "碳中和": {
+      "direction": "绿色低碳/节能环保",
+      "score": 90
+    },
+    "碳交易": {
+      "direction": "绿色低碳/节能环保",
+      "score": 85
+    },
+    "碳纤维": {
+      "direction": "新材料",
+      "score": 90
+    },
+    "稀土": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 95
+    },
+    "稀土永磁": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 90
+    },
+    "第三代半导体": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "算力租赁": {
+      "direction": "AI算力产业链",
+      "score": 95
+    },
+    "航空航天与国防": {
+      "direction": "低空经济/航空航天",
+      "score": 90
+    },
+    "航空航天与国防(A股)": {
+      "direction": "低空经济/航空航天",
+      "score": 90
+    },
+    "航空航天与国防Ⅲ": {
+      "direction": "低空经济/航空航天",
+      "score": 90
+    },
+    "航空航天与国防Ⅳ": {
+      "direction": "低空经济/航空航天",
+      "score": 90
+    },
+    "节能环保": {
+      "direction": "绿色低碳/节能环保",
+      "score": 88
+    },
+    "芯片概念": {
+      "direction": "AI算力产业链",
+      "score": 90
+    },
+    "转基因": {
+      "direction": "创新药",
+      "score": 70
+    },
+    "金属新材料": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 78
+    },
+    "金属钴": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 85
+    },
+    "金属镍": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 80
+    },
+    "金融交易所和数据": {
+      "direction": "数字中国/信创",
+      "score": 75
+    },
+    "钴": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 85
+    },
+    "锂": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 88
+    },
+    "锂电专用设备": {
+      "direction": "新能源升级方向",
+      "score": 80
+    },
+    "锂电池": {
+      "direction": "新能源升级方向",
+      "score": 85
+    },
+    "锂电池概念": {
+      "direction": "新能源升级方向",
+      "score": 85
+    },
+    "镍": {
+      "direction": "稀缺资源/关键矿产",
+      "score": 80
+    },
+    "集成电路制造": {
+      "direction": "半导体国产替代",
+      "score": 95
+    },
+    "集成电路封测": {
+      "direction": "半导体国产替代",
+      "score": 90
+    },
+    "风电": {
+      "direction": "新能源升级方向",
+      "score": 88
+    },
+    "风电整机": {
+      "direction": "新能源升级方向",
+      "score": 85
+    },
+    "风电设备": {
+      "direction": "新能源升级方向",
+      "score": 88
+    },
+    "风电零部件": {
+      "direction": "新能源升级方向",
+      "score": 80
+    },
+    "高端装备": {
+      "direction": "高端装备/工业母机",
+      "score": 90
+    }
+  },
+  "unmapped": [],
+  "total_mapped": 115,
+  "total_unmapped": 0
+}
